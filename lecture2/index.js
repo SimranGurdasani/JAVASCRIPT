@@ -73,5 +73,5 @@ function addTwoNumbers(x,y){
     return x+y;
 }
 
-console.log(addTwoNumbers(5))
+console.log(addTwoNumbers(5,6))
 
