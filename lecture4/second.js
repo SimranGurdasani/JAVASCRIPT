@@ -14,6 +14,7 @@
 // console.log(`Random is ${random}`)
 
 function check(){
+    // p ko create kiya purposely taki uss khali jagah par hamara text print hoe
     let ans=document.querySelector('#answer')
     let element = document.querySelector('#ip')
     // agar input se kuch print karwana ho toh element.value likhte h
