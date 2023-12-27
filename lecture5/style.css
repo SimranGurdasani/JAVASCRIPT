@@ -1,0 +1,35 @@
+
+
+.wrapper{
+    width: 200px;
+    height: 200px;
+}
+
+.teal{
+    background-color: teal;
+}
+
+.brown{
+    background-color: brown;
+}
+
+
+.d-flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+/* wrapper(parent) ka width image le rha h 100% */
+.d-flex img{
+    width: 100%;
+    height: 100%;
+}
+
+
+.wrapper{
+    height: 300px;
+    width: 300px;
+}

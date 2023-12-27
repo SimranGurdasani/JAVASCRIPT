@@ -26,7 +26,7 @@ console.log(typeof bar)
 // arrays idar sab datatypes lete h
 let a=[1,2,3,"foo"]
 
-
+console.log("hhhhhhh")
 // key can be string or symbol or number whereas value can take any datatype such as nested object,array,anything
 let obj ={
     name: "John Doe",
