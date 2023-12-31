@@ -1,0 +1,62 @@
+.d-flex{
+    display: flex;
+}
+.d-col{
+    flex-direction: column;
+}
+
+.d-none{
+    display: none;
+}
+
+.msg-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#new-btn{
+    border-radius: 1rem;
+    padding: 1rem;
+    font-size: 1.25rem;
+    background-color: #283618;
+    color: #fff;
+    border: none;
+    margin-bottom: 10px;
+}
+
+#msg{
+    color: #dda15e;
+    font-size: 2rem;
+}
+
+.parent{
+    height: 100vh;
+    background-color: bisque;
+    margin: auto;
+}
+
+.btn{
+    background-color: #FD9BC5;
+    width: 100%;
+    height: 100%;
+    margin:5px;
+    border-radius: 10px;
+    font-size: 2.5rem;
+    color: black;
+    opacity: 1!important;
+}
+.layout{
+    width: 100%;
+    height: 87%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.layout div{
+    width: 39%;
+    height: 90%;
+    margin: 5px;
+}
