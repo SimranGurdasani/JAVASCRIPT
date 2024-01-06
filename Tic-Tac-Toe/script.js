@@ -45,9 +45,10 @@ function checkDraw(){
         msg.textContent = `Draw!!!`
         let msgcontainer = document.querySelector('.msg-container')
         msgcontainer.classList.remove('d-none') 
+        // newGame();
     }
 
-    newGame();
+    
 }
 
 function checkWinner(){
@@ -81,7 +82,7 @@ function displayWinner(fvalue){
     msgcontainer.classList.remove('d-none')
     disableBoxes()
 
-    newGame();
+    // newGame();
 }
 
 function disableBoxes(){
@@ -90,19 +91,19 @@ function disableBoxes(){
     })
 }
 
-function newGame(){
-    let newGamebtn = document.querySelector('#new-btn')
-    newGamebtn.addEventListener('click',()=>{
-        // let msg = document.querySelector('#msg')
-        let msgcontainer = document.querySelector('.msg-container')
-        msgcontainer.textContent=''
+// function newGame(){
+//     let newGamebtn = document.querySelector('#new-btn')
+//     newGamebtn.addEventListener('click',()=>{
+//         // let msg = document.querySelector('#msg')
+//         let msgcontainer = document.querySelector('.msg-container')
+//         msgcontainer.textContent=''
 
-        count=0;
+//         count=0;
 
-        boxes.forEach((value)=>{
-            value.textContent=''
-            value.disabled=false;
-        })
+//         boxes.forEach((value)=>{
+//             value.textContent=''
+//             value.disabled=false;
+//         })
 
-    })
-}
+//     })
+// }

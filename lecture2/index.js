@@ -52,19 +52,19 @@
 // }
 
 // prime no 
-//     for(let num=2;count<value;num++){
-//         flag=true;
-//         for(let i=2;i<num/2;i++){
-//             if(num%i==0){
-//                 flag=false;
-//             }
-//         }
-//         if(flag){
-//             console.log(num);
-//             count++;
-//         }
+    for(let num=2;count<value;num++){
+        flag=true;
+        for(let i=2;i<num/2;i++){
+            if(num%i==0){
+                flag=false;
+            }
+        }
+        if(flag){
+            console.log(num);
+            count++;
+        }
 
-//  }
+ }
 
 
 //  declaration function
