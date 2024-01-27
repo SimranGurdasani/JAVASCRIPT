@@ -92,6 +92,7 @@ const square = (x)=>x*x
 // const cube = function(x,callback){
 //     return x * callback(x)
 // }
+// callback is asynchronous
 
 let ans = square(5)
 console.log(ans);

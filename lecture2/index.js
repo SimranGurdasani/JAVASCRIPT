@@ -6,6 +6,7 @@
 // }
 
 // // for-of loop
+// idar for in lagaege toh indexes print heoge
 // for(let elem of arr){
 //     console.log(elem)
 // }
@@ -17,6 +18,7 @@
 // }
 
 // // for-in loop:obj ko loop lagaana ho toh
+// ye sirf keys fetch krta h 
 // for(let key in obj){
 //     // console.log(key)
 //     console.log(key,"-",obj[key])

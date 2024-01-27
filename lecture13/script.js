@@ -18,3 +18,7 @@ async function hitUrl(){
     console.log(value)
 
 }
+
+// asynchronous is when data laane hoti h backend se so vo wait krta h data ka so 
+// tabtak page unresponsive ho jta h so to solve this,async js came into picture
+

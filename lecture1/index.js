@@ -72,3 +72,12 @@ console.log(str1==str2)
 // triple = will not only check value but also checks datatype ...it is known as strict typed checking
 console.log(str1===str2)
 
+// this is called variable hoisting ....below wala
+// it takes only DECLARATION At the top not the INITIALISAATION
+// console.log(x)
+// var x
+
+// undefined is special datatype 
+// let and const are BLOCK SCOPED
+// var is FUNCTION SCOPED
+
